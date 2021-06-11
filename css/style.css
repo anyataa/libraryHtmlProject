@@ -111,14 +111,3 @@ a {
     width: 250px;
   }
 }
-
-#search-input {
-  border-radius: 5rem;
-  padding-left: 1rem;
-  font-size: 17px;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  transform: translate(0, -0.5rem);
-  border-width: 1px;
-  border-color: #cacaca;
-}
