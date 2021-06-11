@@ -68,8 +68,8 @@ a {
 .details {
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
-  transform: translate(0, -340%);
+  margin-left: 25px;
+  transform: translate(0, -350%);
   /* align-items: center; */
   width: 300px;
 }
@@ -78,16 +78,19 @@ a {
   color: white;
   text-align: left;
   margin-top: 0px;
+  font-size: 17px;
 }
 .marvel {
   color: white;
   font-weight: bold;
   letter-spacing: 2px;
-  transform: translate(0, -350%);
-  font-size: 25px;
+  transform: translate(0, -250%);
+  font-size: 35px;
   margin-left: 20px;
 }
-
+.author {
+  font-size: 9px;
+}
 .box:hover {
   background-color: #17171d;
   transform-style: preserve-3d;
@@ -107,4 +110,15 @@ a {
     font-size: 16px;
     width: 250px;
   }
+}
+
+#search-input {
+  border-radius: 5rem;
+  padding-left: 1rem;
+  font-size: 17px;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  transform: translate(0, -0.5rem);
+  border-width: 1px;
+  border-color: #cacaca;
 }

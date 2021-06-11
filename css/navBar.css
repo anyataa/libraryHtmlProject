@@ -165,11 +165,11 @@
   font-size: 45px;
   font-weight: 700;
 }
-
+/* 
 .content p {
   font-size: 40px;
   font-weight: 700;
-}
+} */
 
 #btn:checked ~ .content .header {
   margin-left: 18rem;
